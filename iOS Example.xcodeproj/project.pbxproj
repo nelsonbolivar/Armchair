@@ -193,7 +193,7 @@
 				TargetAttributes = {
 					F8111E0419A951050040E7D1 = {
 						CreatedOnToolsVersion = 6.0;
-						DevelopmentTeam = 9H3S97RP4K;
+						DevelopmentTeam = XH634NV6V7;
 						LastSwiftMigration = 0830;
 					};
 				};
@@ -414,12 +414,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XH634NV6V7;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/Example/Info-iOS.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.armchair.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nelsonb.iOS-Example";
 				PRODUCT_NAME = "iOS Example";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
@@ -434,10 +435,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XH634NV6V7;
 				INFOPLIST_FILE = "$(SRCROOT)/Example/Info-iOS.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.armchair.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nelsonb.iOS-Example";
 				PRODUCT_NAME = "iOS Example";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
