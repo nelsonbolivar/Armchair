@@ -292,14 +292,14 @@ public func debugEnabled() -> Bool {
     return Manager.defaultManager.debugEnabled
 }
 public func debugEnabled(_ debugEnabled: Bool) {
-    #if Debug
+    //#if Debug
         Manager.defaultManager.debugEnabled = debugEnabled
-    #else
+    /*#else
         print("[Armchair] Debug is disabled on release builds.")
         print("[Armchair]   If you really want to enable debug mode,")
         print("[Armchair]   add \"-DDebug\" to your  Swift Compiler - Custom Flags")
         print("[Armchair]   section in the target's build settings for release")
-    #endif
+    #endif*/
 }
 
 /**
